@@ -40,7 +40,7 @@ public class Main {
         int y1 = input.nextInt();
         int x2 = input.nextInt();
         int y2 = input.nextInt();
-        double l = Math.sqrt((x1-x2)*(x1-x2)-(y1-y2)*(y1-y2));
+        double l = Math.sqrt((x2-x1)*(x2-x1)-(y2-y1)*(y2-y1));
         if (l < 10)
             System.out.println("близко");
 
@@ -54,10 +54,12 @@ public class Main {
         int q2 = input.nextInt();
         int w2 = input.nextInt();
         System.out.println("Введите два радиуса: ");
-        int qr = input.nextInt();
-        int wr = input.nextInt();
-        double t = Math.sqrt((q1-q2)*(q1-q2)-(w1-w2)*(w1-w2));
-        if (t <= qr+wr)
+        int r1 = input.nextInt();
+        int r2 = input.nextInt();
+        double t = Math.sqrt((q2-q1)*(q2-q1)-(w2-w1)*(w2-w1));
+        if (t<Math.abs(r1- r2))
+            System.out.println("одна окр вписана в другую и не пересекаются");
+        if (t <= r2+ r2)
             System.out.println("имеют общую точку или более");
 
         else

@@ -1,0 +1,31 @@
+Работа со списками
+
+List
+
+//создание списка 
+	ArrayList(): создает пустой список
+		
+		далее пример, создаем Список(new ArrayList<>()) класса Robot с названием robotList
+	List<Robot> robotList = new ArrayList<>();
+	
+		далее пример, объект ArrayList типизируется классом String, поэтому список будет хранить только строки. 
+		Поскольку класс ArrayList применяет интерфейс Collection<E>, то мы можем использовать методы данного интерфейса 
+		для управления объектами в списке.
+	ArrayList<String> people = new ArrayList<String>();
+	
+//добавим в список ряд элементов
+        далее пример, используем метод add 
+	people.add("Tom");people.add("Alice");people.add("Kate");people.add("Sam");
+        
+		далее пример, добавляем элемент="Bob" по индексу=1
+    people.add(1, "Bob"); 
+	
+// установка нового значения для 2-го объекта
+		далее пример, установим значение="Robert" по индексу=1
+	people.set(1, "Robert"); 
+	
+		далее пример, вывод 
+	System.out.printf("ArrayList has %d elements \n", people.size());
+	for(String person : people){
+            System.out.println(person);
+        }

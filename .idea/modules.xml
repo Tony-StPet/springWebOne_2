@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1/Arrays2/Arrays2.iml" filepath="$PROJECT_DIR$/1/Arrays2/Arrays2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1/Arrays_01/Arrays_01.iml" filepath="$PROJECT_DIR$/1/Arrays_01/Arrays_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1/NestedLoops/NestedLoops.iml" filepath="$PROJECT_DIR$/1/NestedLoops/NestedLoops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1/Three_someOperators/Three_someOperators.iml" filepath="$PROJECT_DIR$/1/Three_someOperators/Three_someOperators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Tony.iml" filepath="$PROJECT_DIR$/.idea/Tony.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1/fInJava_2/fInJava_2.iml" filepath="$PROJECT_DIR$/1/fInJava_2/fInJava_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1/four_dragon and knight/four_dragon and knight.iml" filepath="$PROJECT_DIR$/1/four_dragon and knight/four_dragon and knight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1/gang 2.1/gang 2.1.iml" filepath="$PROJECT_DIR$/1/gang 2.1/gang 2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1/two_1.0/two_1.0.iml" filepath="$PROJECT_DIR$/1/two_1.0/two_1.0.iml" />
+    </modules>
+  </component>
+</project>

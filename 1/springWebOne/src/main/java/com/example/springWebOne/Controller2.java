@@ -20,6 +20,8 @@ public class Controller2 {
         return "tepmlate2";
     }
 
+
+
     public Controller2() {
         System.out.println("создается  Controller2");
     }
